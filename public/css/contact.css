@@ -1,0 +1,64 @@
+.contact-container{
+    background-image: url('/images/uia background v3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    height: 85vh;
+    width: 100%;
+    
+}
+
+.form-container{
+    flex-direction: column;
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.form-group-1{
+    margin: 1rem;
+    width: 100%;
+    display:inline-block;
+    position: relative
+}
+
+.form-group-2{
+    box-sizing: border-box;
+    margin: 1rem;
+}
+
+.form-control{
+    box-sizing: border-box;
+}
+
+.btn{
+    margin: 1rem;
+    width: 50%;
+}
+
+input{
+    outline: white;
+}
+
+.top-form{
+    flex-wrap: wrap;
+}
+
+i {
+    float: left;
+    margin-left: 10px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 2;
+    color: red;
+}

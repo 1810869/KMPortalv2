@@ -1,0 +1,165 @@
+#searchBarWrap{ 
+    display: flex;
+    justify-content: center;
+    padding: 25vh;
+    padding-top: 20px;
+    padding: 0.5rem;
+  }
+  
+  
+  #searchBar{
+   padding: .2em .2em .2em .5em;
+   width: 750px;
+   height: 40px;
+   background: white;
+   border-radius: 5px 0 0 5px;
+   border: 0.5px solid white;
+   color: white;
+   /* box-shadow: 0 0 0 #fff, 0 0 1px white, 0 0 2px white, 0 0 3px white; */
+  }
+  
+  #searchBar:focus{
+      border: 2px solid white;
+      outline: white;
+  }
+  
+  #searchBtn{
+  
+   /* border-color: grey; */
+   background-color: cadetblue;
+   color:white;
+   font-weight:bold;
+   border-left: 0 solid;
+   height: 40px;
+   border: 0.5px solid white;
+   border-radius: 0;
+   /* padding-bottom: .2em; */
+  
+  }
+  
+  #searchBtn:hover{
+      background-color: #fff;
+  }
+  
+  #searchBtn:hover i{
+      color: black;
+  }
+
+  .text{
+    text-align: center;
+    /* padding: 15vh; */
+    padding-top: 0;
+    padding-bottom: 5vh;
+    color: white;
+    font-size: 24px;
+}
+
+.text h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 3.25rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    font-family: roboto;
+}
+
+.text p{
+    margin-bottom: 0;
+    font-family: roboto;
+}
+
+.search-wrapper{
+    
+    position: relative;
+    width: 100%;
+}
+
+.cluster-wrapper{
+    height: auto;
+    position: relative;
+    width: 100%;
+
+}
+
+.cluster-text{
+    background-color: white;
+}
+
+.cluster-text h1{
+    font-weight: 600;
+    color: black;
+    padding: 1.5rem;
+    background-image: url('/images/islamic geometry.jpg');
+}
+
+.grid-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-gap: 5px; */
+    /* padding: 100px; */
+    padding-top: 50px;
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+   
+  }
+  
+  .grid-container1 > div {
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    font-size: 30px;
+    width: 150px;
+  }
+  
+  .grid-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-gap: 5px; */
+    /* padding: 100px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+   
+  }
+  
+  .grid-container2 > div {
+    /* background-color: rgba(255, 255, 144, 0.8); */
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    font-size: 30px;
+    width: 150px;
+  }
+
+  .text-cluster{
+    line-height: 1.2rem;
+    padding-top: 7px;
+    font-weight: 100;
+  }
+
+  .text-cluster strong{
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+    font-family: roboto;
+}
+
+.card{
+    width: 275px;
+    height: 320px;
+    padding: 1rem;
+
+}
+
+.card-text{
+    height: 100px;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.icon-cluster{
+    padding: 1.6rem;
+}
